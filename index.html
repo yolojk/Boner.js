@@ -1,19 +1,29 @@
 <html>
-<head>
-	<title>Boner.js</title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
-	<script src="boner.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		$(document).ready( function() {
-		$(".main").boner({
-			bSize : 20,
-			bSpeed : 30
-		});			
-		});
-	</script>
-</head>
-<body>
-	<div class="main">
-	</div>
-</body>
+  <style>
+   html {
+       font-family: sans-serif;
+       font-size: medium;
+   }
+  </style>
+  <head>
+    <title>BonerBanner.js</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+    <script src="boner-banner.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready( function() {
+        $(".main").boner({
+            shaftSize:  20,
+            streamSize: 30,
+            speed:      '50',
+            message:    'this is a rocket ship',
+            ballStyle:  'enhanced',
+            shaftStyle: 'enhanced'
+        });
+    });
+    </script>
+  </head>
+  <body>
+    <div class="main">
+    </div>
+  </body>
 </html>
