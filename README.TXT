@@ -1,4 +1,4 @@
-Simply add jQuery & boner.js file, and configure the options as follows:
+Simply add jQuery & boner-banner.js file, and configure the options as follows:
 
 <script type="text/javascript">
     $(document).ready( function() {
